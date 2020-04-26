@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, TextInput} from 'react-native';
 
-function Student(props) {//props is a properties variable?, called later in {props.name}
+function Student(props) {//props is a properties (arguments to make components), called later in {props.name}
   return (
     <View>
       <Text>My name is {props.name}, a student in CIS340</Text>

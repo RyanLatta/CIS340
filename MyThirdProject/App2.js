@@ -8,12 +8,13 @@ export default function MyDog() {//imported image thing above ^
     <View style={{
       flex: 1, //divides area into x rectangles
       justifyContent: 'center',
-      alignItems: 'center'
-    }}>
+      alignItems: 'center'}}>
+
       <Image source={pic}
-        style={{width: 200, height: 200}}
-    />
-    <Text>Hello, this is my dog.</Text>    
+        style={{width: 200, height: 200}}/>
+
+      <Text>Hello, this is my dog.</Text>
+
     </View>
   );
 }
